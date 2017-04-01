@@ -47,6 +47,7 @@ EXAMPLE RESPONSES
             }
         }
 
+
     2. Invalid VAT-number
     ~~~~~~~~~~~~~~~~~~~~~
 
@@ -72,6 +73,7 @@ EXAMPLE RESPONSES
             is_valid: false,
             data: null
         }
+
 
     4. Other VIES error codes
     ~~~~~~~~~~~~~~~~~~~~~~~~~
