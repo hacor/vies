@@ -17,7 +17,12 @@ function Validate(vat_number, country_code) {
     };
 
     return new Promise((resolve, reject) => {
-        soap.createClient(endpoint, (error, soapClient) => {
+        soap.createClient(endpoint, (connectionError, soapClient) => {
+            if (connectionError) {
+                return reject({
+                    error: connectionError,
+                });
+            }
             soapClient.checkVat(payload, (viesError, viesResult) => {
                 if (viesError) {
                     return reject({
