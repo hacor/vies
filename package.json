@@ -1,6 +1,6 @@
 {
   "name": "vies",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The VIES Node module checks VAT numbers against the European VIES validator. It is a thin and transparant wrapper around the SOAP service that is exposed through ec.europa.eu/taxation_customs.",
   "main": "index.js",
   "keywords": [
