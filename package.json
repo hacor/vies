@@ -12,6 +12,9 @@
     "europe",
     "finance"
   ],
+  "scripts": {
+    "test": "./node_modules/.bin/tape tests.js | ./node_modules/.bin/faucet"
+  },
   "author": "Jethro Van Thuyne <post@jethro.be>",
   "repository": {
     "type": "git",
