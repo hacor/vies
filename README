@@ -1,6 +1,7 @@
 VIES
 ====
 
+The VIES repository is overtaken from Jethro, with all respects going to the original author.
 The VIES Node module checks VAT numbers against the European VIES validator. It
 is a thin and transparant wrapper around the SOAP service that is exposed
 through ec.europa.eu/taxation_customs.
